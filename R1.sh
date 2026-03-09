@@ -69,12 +69,6 @@ R1(config-if)#
 R1(config-if)#
 R1(config-if)#no sh
 R1(config-if)#
-R1(config-if)#
-R1(config-if)#
-R1(config-if)#
-R1(config-if)#
-R1(config-if)#
-R1(config-if)#
 *Mar  1 12:52:44.543: %LINK-3-UPDOWN: Interface FastEthernet1/0, changed state to up
 *Mar  1 12:52:45.543: %LINEPROTO-5-UPDOWN: Line protocol on Interface FastEthernet1/0, changed state to up
 R1(config-if)#
@@ -174,24 +168,5 @@ Type escape sequence to abort.
 Sending 5, 100-byte ICMP Echos to 172.168.0.1, timeout is 2 seconds:
 !!!!!
 Success rate is 100 percent (5/5), round-trip min/avg/max = 88/97/108 ms
-R1#
-*Mar  1 13:05:57.447: %CDP-4-DUPLEX_MISMATCH: duplex mismatch discovered on FastEthernet0/0 (not full duplex),                                                                                                                                with R2 FastEthernet0/0 (full duplex).
-R1#
-*Mar  1 13:06:46.703: %CDP-4-DUPLEX_MISMATCH: duplex mismatch discovered on FastEthernet0/0 (not full duplex),                                                                                                                                with R2 FastEthernet0/0 (full duplex).
-R1#
-*Mar  1 13:07:37.303: %CDP-4-DUPLEX_MISMATCH: duplex mismatch discovered on FastEthernet0/0 (not full duplex),                                                                                                                                with R2 FastEthernet0/0 (full duplex).
-R1#
-*Mar  1 13:08:36.347: %CDP-4-DUPLEX_MISMATCH: duplex mismatch discovered on FastEthernet0/0 (not full duplex),                                                                                                                                with R2 FastEthernet0/0 (full duplex).
-R1#
-*Mar  1 13:09:26.483: %CDP-4-DUPLEX_MISMATCH: duplex mismatch discovered on FastEthernet0/0 (not full duplex),                                                                                                                                with R2 FastEthernet0/0 (full duplex).
-R1#
-*Mar  1 13:10:23.991: %CDP-4-DUPLEX_MISMATCH: duplex mismatch discovered on FastEthernet0/0 (not full duplex),                                                                                                                                with R2 FastEthernet0/0 (full duplex).
-R1#
-*Mar  1 13:11:20.243: %CDP-4-DUPLEX_MISMATCH: duplex mismatch discovered on FastEthernet0/0 (not full duplex),                                                                                                                                with R2 FastEthernet0/0 (full duplex).
-R1#
-*Mar  1 13:12:19.659: %CDP-4-DUPLEX_MISMATCH: duplex mismatch discovered on FastEthernet0/0 (not full duplex),                                                                                                                                with R2 FastEthernet0/0 (full duplex).
-R1#
-*Mar  1 13:13:15.295: %CDP-4-DUPLEX_MISMATCH: duplex mismatch discovered on FastEthernet0/0 (not full duplex),                                                                                                                                with R2 FastEthernet0/0 (full duplex).
-R1#
-*Mar  1 13:14:09.119: %CDP-4-DUPLEX_MISMATCH: duplex mismatch discovered on FastEthernet0/0 (not full duplex),                                                                                                                                with R2 FastEthernet0/0 (full duplex).
+R1#                                                                                                                           with R2 FastEthernet0/0 (full duplex).
 R1#
